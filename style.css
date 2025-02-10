@@ -1,0 +1,46 @@
+*{
+  background-color: brown;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body{
+  background-color: aqua;
+  height: 100vh;
+}
+.fondo{
+  background-color: blueviolet;
+}
+#parrafo{
+  font-size: 50px;
+}
+[href]{
+text-decoration: none;
+font-size: 50px;
+color: #000;
+}
+[href="htpp//Sofia Plus.com"]{
+  color: red;
+}
+input{
+  width: 40em;
+  range: 20;
+}
+[type="text"]{
+  background-color: green
+}
+[type="email"]{
+  background-color: blue;
+}
+[type="number"]{
+  background-color: gold;
+};
+[href="htpp://SofiaPlus.com"]{
+  background-color: yellow;
+}
+[href="htpp://sena.org"]{
+  background-color: red;
+}
+[href$="htpps:"]{
+  background-color: green;
+}
