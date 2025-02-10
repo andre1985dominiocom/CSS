@@ -1,46 +1,47 @@
-*{
+* {
   background-color: brown;
   margin: 0;
   padding: 0;
   color: white;
 }
-body{
+body {
   background-color: aqua;
   height: 100vh;
 }
-.fondo{
+.fondo {
   background-color: blueviolet;
 }
-#parrafo{
+#parrafo {
   font-size: 50px;
 }
-[href]{
-text-decoration: none;
-font-size: 50px;
-color: #000;
+[href] {
+  text-decoration: none;
+  font-size: 50px;
+  color: #000;
 }
-[href="htpp//Sofia Plus.com"]{
+[href="htpp//Sofia Plus.com"]
+{
   color: red;
 }
-input{
+input {
   width: 40em;
   range: 20;
 }
-[type="text"]{
-  background-color: green
+[type="text"] {
+  background-color: green;
 }
-[type="email"]{
+[type="email"] {
   background-color: blue;
 }
-[type="number"]{
+[type="number"] {
   background-color: gold;
-};
-[href^="http"]{
-  background-color: yellow;
 }
-[href$=".org"]{
-  background-color: blue;
+[href^="http"] {
+  color: yellow;
 }
-[href^="https:"]{
-  background-color: white;
+[href$=".org"] {
+  color: blue;
+}
+[href^="https:"] {
+  color: white;
 }
