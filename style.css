@@ -35,12 +35,12 @@ input{
 [type="number"]{
   background-color: gold;
 };
-[href="htpp://SofiaPlus.com"]{
-  background-color: yellow;
-}
-[href="htpp://sena.org"]{
+[href="http://SofiaPlus.com"]{
   background-color: red;
 }
-[href$="htpps:"]{
-  background-color: green;
+[href="http://sena.org"]{
+  background-color: blue;
+}
+[href$="https:"]{
+  background-color: white;
 }
